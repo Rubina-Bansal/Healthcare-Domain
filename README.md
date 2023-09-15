@@ -54,8 +54,4 @@ In the dataset constructed for this domain, the family history feature has the v
 #### Methodology :-
 The first step taken was understanding the data and preprocessing it to make it ready for analysis. Important cheacks like missing values, outlier analysis, correlation and covariance analysis were done. Then using PCA on the dataset, determined the number of PCA components to be used so that 90% of the variance in data is explained by the same.          <br>
 Optimal number of clusters were determined using KMeans(eigenvalues, eigenvectors) and Hierarchial Clustering(visualizing dendrograms) Techniques.  <br>
-Final Clustering was done using Agglomerarive Clustering.               <br>
-
-Business interpretation/explanation of the model.           <br>
-So, from our analysis we could conclude that Agglomerative clustering has done a pretty good job of clustering almost all the classes except for 1 misclassification of class 3 and 1 misclassification of class 5. Both are interchanged. So the total accuracy is 355/357.
-​
+Final Clustering was done using Agglomerarive Clustering.           
